@@ -1,7 +1,10 @@
-package com.servlet;
+//import java.io.*;
+public class Main{
+    public static void main(String args[]){
+       Cviews cv =new Cviews();
 
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+       Cmodel cm =new Cmodel();
+       new Ccontroller(cv,cm);
     }
+    
 }
