@@ -1,65 +1,18 @@
-# JSP Student Registration App
+## Getting Started
 
-A simple Java web application that collects student details through a JSP form and displays the submitted information using a Java Servlet.
+Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Features
-- Student registration form for Name, Email, Course, and Age
-- Java Servlet processes submitted form data
-- JSP page displays the submitted details
-- Maven packaging as a WAR file
+## Folder Structure
 
-## Technologies Used
-- Java 17+ (your laptop has Java 21)
-- Jakarta Servlet API 6.1
-- Jakarta Server Pages (JSP) API 4.0
-- Apache Maven
-- Apache Tomcat 11
+The workspace contains two folders by default, where:
 
-## Project Structure
-```text
-jsp-student-app/
-├── pom.xml
-├── src/
-│   └── main/
-│       ├── java/
-│       │   └── com/servlet/HelloServlet.java
-│       └── webapp/
-│           ├── student.jsp
-│           └── result.jsp
-└── target/
-    └── jsp-student-app.war
-```
+- `src`: the folder to maintain sources
+- `lib`: the folder to maintain dependencies
 
-## Requirements
-- JDK 17 or newer
-- Apache Maven
-- Apache Tomcat 11
+Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-## Build
-Open Command Prompt in the folder containing `pom.xml` and run:
-```bash
-mvn clean package
-```
+> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-If the build succeeds, Maven creates `target/jsp-student-app.war`.
+## Dependency Management
 
-## Run on Windows
-1. Run  `mvn clean package` command on cmd
-2. Run `bin/startup.bat` from the Tomcat folder.
-3. Open this URL in your browser:
-
-   http://localhost:8080/jsp-student-app/student.jsp
-4.  Fill in the form and submit it to see the result page.
-
-If the WAR file is already in Tomcat's `webapps` folder, you do not need to copy it again. If Tomcat uses another port, replace `8080` with that port.
-
-## Stop Tomcat
-Run `bin/shutdown.bat` from the Tomcat folder. Closing the browser tab does not stop the server.
-
-## Notes
-- This is a basic demonstration project and does not store records in a database.
-- Use a Tomcat version compatible with the Jakarta Servlet/JSP APIs in `pom.xml`.
-- The `target/` directory is generated during the build and usually does not need to be uploaded to GitHub.
-
-## Author
-Abhay Dadhich
+The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).

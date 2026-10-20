@@ -1,6 +1,3 @@
-0000000000000000000000000000000000000000 bbefd56396634f9b7253eab1fec126a01d83c3fb kovid02 <kovidgupta0003@gmail.com> 1787150521 +0530	commit (initial): Add Java client server socket program
-bbefd56396634f9b7253eab1fec126a01d83c3fb 816a88894a95a3ec7f3ffe9185967abc054e1279 kovid02 <kovidgupta0003@gmail.com> 1787197684 +0530	commit: first commit
-816a88894a95a3ec7f3ffe9185967abc054e1279 816a88894a95a3ec7f3ffe9185967abc054e1279 kovid02 <kovidgupta0003@gmail.com> 1787197685 +0530	Branch: renamed refs/heads/master to refs/heads/main
-816a88894a95a3ec7f3ffe9185967abc054e1279 d08399dfcc769caf4dab0016559103c558a86216 kovid02 <kovidgupta0003@gmail.com> 1787197753 +0530	commit: Server CLient
-d08399dfcc769caf4dab0016559103c558a86216 31f0e4c2088e1239038124f7356710f0c9a76f21 kovid02 <kovidgupta0003@gmail.com> 1787197913 +0530	commit: first commit
-31f0e4c2088e1239038124f7356710f0c9a76f21 31f0e4c2088e1239038124f7356710f0c9a76f21 kovid02 <kovidgupta0003@gmail.com> 1787197913 +0530	Branch: renamed refs/heads/main to refs/heads/main
+0000000000000000000000000000000000000000 f028abdecc85ec060a8bc074a4ee8d5d83127dba Mohammad Hashim <mohammadhashim8440@gmail.com> 1785931508 +0530	commit (initial): Initial commit - Reg-form
+f028abdecc85ec060a8bc074a4ee8d5d83127dba f028abdecc85ec060a8bc074a4ee8d5d83127dba Mohammad Hashim <mohammadhashim8440@gmail.com> 1785931565 +0530	Branch: renamed refs/heads/main to refs/heads/main
+f028abdecc85ec060a8bc074a4ee8d5d83127dba d933216439c603eaf51157ebcd2e98c664a870d2 Mohammad Hashim <mohammadhashim8440@gmail.com> 1785931743 +0530	commit: Delete SectionB1.java
