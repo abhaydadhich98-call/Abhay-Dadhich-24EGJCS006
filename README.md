@@ -1,4 +1,4 @@
-# JDBC Student Registration System
+<img width="534" height="442" alt="image" src="https://github.com/user-attachments/assets/d701c65f-45c3-4ecf-ad08-40662c96ddaa" /># JDBC Student Registration System
 
 A Java console application that demonstrates JDBC connectivity with MySQL. It supports adding, viewing, searching, updating, and deleting student records.
 
@@ -70,4 +70,4 @@ If the driver JAR has another name, replace it in both commands. `src` is includ
 `db.properties` contains local credentials. Do not commit a real database password to a public repository. Before publishing, replace it with a placeholder and keep your real credentials private.
 
 ## Author
-Kovid Gupta
+Abhay Dadhich
