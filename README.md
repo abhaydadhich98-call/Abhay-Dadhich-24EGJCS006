@@ -1,4 +1,4 @@
-<img width="534" height="442" alt="image" src="https://github.com/user-attachments/assets/d701c65f-45c3-4ecf-ad08-40662c96ddaa" /># JDBC Student Registration System
+# JDBC Student Registration System
 
 A Java console application that demonstrates JDBC connectivity with MySQL. It supports adding, viewing, searching, updating, and deleting student records.
 
