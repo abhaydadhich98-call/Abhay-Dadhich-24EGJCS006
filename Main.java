@@ -1,10 +1,7 @@
-//import java.io.*;
-public class Main{
-    public static void main(String args[]){
-       Cviews cv =new Cviews();
+package com.servlet;
 
-       Cmodel cm =new Cmodel();
-       new Ccontroller(cv,cm);
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
     }
-    
 }
