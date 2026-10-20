@@ -1,13 +1,21 @@
-import java.rmi.Naming;
-public class Client {
-    public static void main(String[] args){
-        try {
-            Calculator  obj =(Calculator) Naming.lookup("rmi://localhost/Calculator");
-            System.out.println("Addition =" +obj.add(10, 30));
-            System.out.println("Subtract =" +obj.subtract(40, 30));
-        } catch (Exception e) {
-            System.out.println(e);
-        }
-    }
-    
+import java.io.*;  
+import java.net.*;  
+public class Client {  
+public static void main(String[] args) {  
+try {  
+Socket socket = new Socket("localhost", 5000);  
+System.out.println("Connected to server.");  
+BufferedReader input = new BufferedReader(new 
+InputStreamReader(socket.getInputStream()));  
+PrintWriter output = new PrintWriter(socket.getOutputStream(), true);  
+output.println("Hello Server");  
+String response = input.readLine();  
+System.out.println("Server says: " + response);  
+socket.close();  
+System.out.println("Connection closed.");  
+        } 
+catch (IOException e) {  
+System.out.println(e);  
+        }  
+    }  
 }
